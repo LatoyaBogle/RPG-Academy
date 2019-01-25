@@ -92,26 +92,26 @@ class Home extends Component {
         <Container>
           <Row>
             <Col size="lg">
-            <IconBar/>
-            </Col>
-          </Row>
-          <Row>
-            <Col size="md">
-            <Headerbar/>
+           <NavMain/>
             </Col>
           </Row>
           <Row>
             <Col size="lg">
-            <Nav/>
+          
+            </Col>
+          </Row>
+          <Row>
+            <Col size="lg">
+           
             </Col>
             
           </Row>
           <Row>
-          <Col size="md">
-              <NavMain/>
+          <Col size="lg">
+       
             
            
-            <NavbarIcon/>
+ 
             
             </Col>
 
