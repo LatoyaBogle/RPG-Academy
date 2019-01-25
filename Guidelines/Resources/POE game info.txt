@@ -1,0 +1,14 @@
+General Information: Highest lvl 100 (8 Ascendancy points, go through labrinth 4 times);
+Leagues: 
+classNamees/Ascendancy: 
+Duelist: Slayer, Gladiator, Champion; 
+Marauder: JuggerNaut, Berserker, Chieftain;
+Witch: Necromancer, Occultist, Elementalist;
+Ranger:Deadeye, Raider, Pathfinder;
+Shadow: Assassin, Saboteur, Trickster;
+Templar: Inquistor, HieroPhant, Guardian;
+Scion: Ascendant;
+
+Play Style/options(abilities to form a build around):  Melee, Ranged, Spells, Minions, Totems, Traps/Mines, Triggers, Brands,Misc.
+
+

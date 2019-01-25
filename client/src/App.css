@@ -1,0 +1,90 @@
+body, html {
+  height: 100%;
+  overflow: scroll;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #acacac;
+  line-height: 1.7;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+*, :after, :before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+user agent stylesheet
+body {
+  display: block;
+  margin: 8px;
+}
+
+*, :after, :before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, :after, :before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: rgba(221, 36, 76, 0.438);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body, html {
+  height: 100%;
+}
+
+.bg { 
+  /* The image used 
+  background-image: url("../src/images/background_2.png");*/
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*img {
+  background-image: url("../src/images/background_2.png");
+  background-size: cover;
+  height:auto;
+ /*  -webkit-filter: blur(5px); Safari 6.0 - 9.0 
+  filter: blur(5px);
+}*/

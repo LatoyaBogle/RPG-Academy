@@ -1,0 +1,45 @@
+POE api(grabbing items, stats), steam api(connect with available friends)
+POE api: Public stash tab API is a basic JSON interface to obtain information relevant for general trade using Premium Stash Tabs for PC clients. 
+Basically the interface serves global update information (considerable as a update-"stream") on any public stash tabs recognized by the game servers.
+Steam Api: (https://steamcommunity.com/dev) possible social interaction, see games people are playing that play path, see acheivements, 
+
+API resources:
+Steam:https://developer.valvesoftware.com/wiki/Steam_Web_API#GetGlobalAchievementPercentagesForApp_.28v0001.29 (documentation)
+POE: https://www.reddit.com/r/pathofexiledev/comments/48i4s1/information_on_the_new_stash_tab_api/
+https://pathofexile.gamepedia.com/Public_stash_tab_API#items(wiki-tons of info)
+Youtube:https://developers.google.com/youtube/v3/
+Howlongtobeat:https://www.npmjs.com/package/howlongtobeat; https://github.com/ckatzorke/howlongtobeat/blob/master/src/main/howlongtobeat.ts
+Possible custom(api wrapper for hltb and or gamepedia POE)
+
+Possible new library,package or tech:
+Libraries:
+Echart(library):(does interactive charts for data): http://echarts.baidu.com/echarts2/index-en.html
+Materialize(library): (css design):https://materializecss.com/
+Sortable(library):(drag and drop items)https://github.com/SortableJS/Sortable
+Inspinia
+Packages:
+currency-cop(shows value of choas based on stashes)https://www.npmjs.com/package/currency-cop
+poe-watch-api
+(PoeWatch
+History
+Item ⇐ ItemData
+ItemData
+League
+PriceData)
+react-responsive-carousel
+
+POSTMAN(for api pulls)
+Passport.js(for authentication or to save builds):http://www.passportjs.org/docs/google/
+
+
+
+
+
+
+
+
+
+
+
+
+

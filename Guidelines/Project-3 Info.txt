@@ -1,0 +1,52 @@
+Project-3 REQs:
+```Must use ReactJS in some way (even if minimal)
+
+Must use a Node and Express Web Server
+
+Must be backed by a MySQL or MongoDB Database with a Sequelize or Mongoose ORM  
+
+Must have both GET and POST routes for retrieving and adding new data
+
+Must be deployed using Heroku (with Data)
+
+Must utilize at least two libraries, packages, or technologies that we haven't discussed
+
+Must allow for or involve the authentication of users in some way
+
+Must have a polished frontend / UI 
+
+Must have folder structure that meets MVC Paradigm
+
+Must meet good quality coding standards (indentation, scoping, naming)```
+```Instead of homework, you will be required to submit 4 Project Deliverables.
+
+These will be due each Saturday from now until Presentation Day.
+
+Deliverables #1 (Week 1: 1/10) – Plan, Design, and Research
+
+Deliverables #2 (Week 2: 1/17) – Ready MVP (Working App!), Mini-Presentation
+
+Deliverables #3 (Week 3: 1/24) – Project Polish, Functionality Push, Final Plan 
+
+Final Presentation (Week 4: 1/29 Presentation & 1/30 Demo Day) – Presentation Time!```
+
+Project-3 app ideas:
+What the app will do?
+**Idea**
+{possible merger of the two how long to beat has backlog, info and user info, may be able to create my own api for both wiki site for path and hltb}
+1.(#1 pick)RPG buildmaker- choose the best build based on your play style, build based around className, and stat trees(POE(path of exile) edition
+2.Backlog killer-pick the most efficient game by length to play, genre, or games owned(add games to a list to tackle)
+What technologies to expect your app to implement?
+3.Steam suggestion Library
+4. Puzzle Questish Grim Fairytale Game(Phaser.io)
+
+**API**
+1.POE api(grabbing items, stats)/ also maybe item market watcher
+2.Steam api(connect with available friends)
+3.Youtube(video resource)
+4.Howlongtobeat?
+**npm packages**
+Mongoose, Sequelize, (final choices from research info doc), dotenv, express
+Who will be responsible for each part of the app? Latoya Bogle
+Who will be responsible for each part of deliverable #1?Latoya Bogle
+
