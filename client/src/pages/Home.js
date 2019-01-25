@@ -8,6 +8,8 @@ import {Redirect} from 'react-router-dom';
 import {ContentNav,NavbarIcon,Nav} from "../components/Nav";
 import DemoCarousel from "../components/Carousel";
 import NavMain from "../components/Nav";
+import IconBar from "../components/IconBar";
+import Headerbar from "../components/Header";
 
 
 
@@ -88,6 +90,16 @@ class Home extends Component {
     render() {
       return (
         <Container>
+          <Row>
+            <Col size="lg">
+            <IconBar/>
+            </Col>
+          </Row>
+          <Row>
+            <Col size="md">
+            <Headerbar/>
+            </Col>
+          </Row>
           <Row>
             <Col size="lg">
             <Nav/>
