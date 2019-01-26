@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import test from "../../images/test.png";
 import { Col, Row, Container } from "../../components/Grid"; 
 import {Redirect} from 'react-router-dom';
-import "../Nav/index.css";
+//import "../Nav/index.css";
 
 
 
@@ -243,7 +243,7 @@ export function Nav(){
   )
 }
 
-
+//Main Navbar containing SignIn and Reg and social icons//
 class NavMain extends Component {
 
   state= {
@@ -266,16 +266,12 @@ class NavMain extends Component {
   render() {
     return(
       <nav className="navbar navbar-dark bg-dark">
-        <Col size="lg">
+        <Col size="md">
           <a className="active" href="#"><i class="fa fa-home"></i></a> 
           <a href="#"><i class="fa fa-search"></i></a> 
           <a href="#"><i class="fa fa-envelope"></i></a> 
           <a href="#"><i class="fa fa-globe"></i></a>
           <a href="#"><i class="fa fa-trash"></i></a> 
-        </Col>
-        <Col size="md">
-        </Col>
-        <Col size="md">
         </Col>
         <Col size="md">
           {this.regisRedirect()}

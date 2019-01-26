@@ -1,6 +1,7 @@
 import React from "react";
 import "../Header/index.css";
 import logo from "../../images/test.png";
+import Tab from "../Tabs/index.js";
 
 
 export function Headerbar (){
@@ -13,24 +14,23 @@ export function Headerbar (){
                     <div className="header">
                         <h2>Courses</h2>
                     </div>
+                    <Tab/>
                 </div>
             </div>
             <div className="subnav">
                 <button className="subnavbtn"><img src={logo} alt="path-icon" style={{width:80, height:80}}/><i className="fa fa-caret-down"></i></button>
                 <div className="subnav-content">
-                    <a href="#bring">...</a>
-                    <a href="#deliver">...</a>
-                    <a href="#package">...</a>
-                    <a href="#express">...</a>
+                    <div className="header">
+                        <h2>Courses</h2>
+                    </div>
                 </div>
             </div> 
             <div className="subnav">
                 <button className="subnavbtn"><img src={logo} alt="path-icon" style={{width:80, height:80}}/><i className="fa fa-caret-down"></i></button>
                 <div className="subnav-content">
-                    <a href="#link1">...</a>
-                    <a href="#link2">...</a>
-                    <a href="#link3">...</a>
-                    <a href="#link4">...</a>
+                    <div className="header">
+                            <h2>Courses</h2>
+                    </div>
                 </div>
             </div>
     

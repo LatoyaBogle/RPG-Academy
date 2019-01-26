@@ -5,10 +5,8 @@ import { Col, Row, Container } from "../components/Grid";
 import friend from '../app.json';
 //import './pages.css';
 import {Redirect} from 'react-router-dom';
-import {ContentNav,NavbarIcon,Nav} from "../components/Nav";
-import DemoCarousel from "../components/Carousel";
+import Carousel from "../components/Carousel";
 import NavMain from "../components/Nav";
-import IconBar from "../components/IconBar";
 import Headerbar from "../components/Header";
 
 
@@ -31,14 +29,10 @@ class Home extends Component {
     redirect: false,
     username:"",
     password:""
-   
-   
-    
   };
 
   componentDidMount() {
     this.loadHome();
-    
   }
 
   loadHome = () => {
@@ -62,7 +56,6 @@ class Home extends Component {
       API.saveUser({
         username: this.state.username,
         password: this.state.password
-       
       })
         .then(res => this.loadHome())
         .catch(err => console.log(err));
@@ -77,71 +70,41 @@ class Home extends Component {
   };
 
   regisRedirect = () => {
-    
     if (this.state.redirect) {
       return<Redirect to='/registration'/>
     }
   }
   
-    test = () => {
-      console.log("just testing")
-    }
+  test = () => {
+    console.log("just testing")
+  }    
  
-    render() {
+  render() {
       return (
         <Container>
           <Row>
             <Col size="lg">
-           <NavMain/>
+              <NavMain/>
             </Col>
           </Row>
           <Row>
             <Col size="lg">
-          
+              <Headerbar/>
             </Col>
           </Row>
-          <Row>
-            <Col size="lg">
-           
-            </Col>
-            
-          </Row>
-          <Row>
-          <Col size="lg">
-       
-            
-           
- 
-            
-            </Col>
-
-
-                        
-          
-          </Row>
-          <Row>
-          <ContentNav/>
-          </Row>
-         
-         
-         
-         
           <Row>
             <Col size="md">
-            <DemoCarousel/>
-              <div>
-              <p>...</p>
-              </div>
+              <Carousel/>
+              
             </Col>
           </Row>
         </Container>
-        
       );
-    }
   }
+}
 
   
   
-  export default Home;
+export default Home;
   
   
