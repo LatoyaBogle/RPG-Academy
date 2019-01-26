@@ -108,20 +108,20 @@ render(){
     return (
       <div>
   
-<button type="button" classNameName="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+<button type="button" className="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
   Sign In
 </button>
 
-<div classNameName="modal fade" id="exampleModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div classNameName="modal-dialog" role="document">
-    <div classNameName="modal-content">
-      <div classNameName="modal-header">
-        <h5 classNameName="modal-title" id="exampleModalLabel">Sign In</h5>
-        <button type="button" classNameName="close" data-dismiss="modal" aria-label="Close">
+<div className="modal fade" id="exampleModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog" role="document">
+    <div className="modal-content">
+      <div className="modal-header">
+        <h5 className="modal-title" id="exampleModalLabel">Sign In</h5>
+        <button type="button" className="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div classNameName="modal-body">
+      <div className="modal-body">
       
       <h2>Display Name</h2>
           <Input   value={this.state.search}
@@ -141,11 +141,11 @@ render(){
       
       </div>
       
-      <div classNameName="modal-footer">
+      <div className="modal-footer">
       {this.userRedirect()}
-        <button onClick={this.setRedirect} type="button" classNameName="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button onClick={this.setRedirect} type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
        
-        <button onClick={this.handleFormSubmit}  type="button" classNameName="btn btn-primary">Sign In</button>
+        <button onClick={this.handleFormSubmit}  type="button" className="btn btn-primary">Sign In</button>
       </div>
     </div>
   </div>

@@ -27,27 +27,27 @@ class ThemeSwitcher extends Component {
     
     return (
       
-      <div classNameName="d-flex flex-wrap justify-content-center position-absolute w-100 h-100 align-items-center align-content-center">
+      <div className="d-flex flex-wrap justify-content-center position-absolute w-100 h-100 align-items-center align-content-center">
       
-        <span classNameName={`h1 mb-4 w-100 text-center text-${themeclassName}`}>{ theme || 'Path of Exile' }</span>
+        <span className={`h1 mb-4 w-100 text-center text-${themeclassName}`}>{ theme || 'Path of Exile' }</span>
         
-        <div classNameName="btn-group">
+        <div className="btn-group">
         
-          <button  type="button" classNameName={`btn btn-${themeclassName} btn-lg`}>{ theme || 'Choose' } className</button>
+          <button  type="button" className={`btn btn-${themeclassName} btn-lg`}>{ theme || 'Choose' } className</button>
           
-          <button onClick={this.test} type="button" classNameName={`btn btn-${themeclassName} btn-lg dropdown-toggle dropdown-toggle-split`} data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <span classNameName="sr-only">Toggle Theme Dropdown</span>
+          <button onClick={this.test} type="button" className={`btn btn-${themeclassName} btn-lg dropdown-toggle dropdown-toggle-split`} data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span className="sr-only">Toggle Theme Dropdown</span>
           </button>
           
-          <div classNameName="dropdown-menu">
+          <div className="dropdown-menu">
           
-            <button classNameName="dropdown-item"  onClick={e => this.chooseTheme('Primary', e)}>Primary Theme</button>
-            <button classNameName="dropdown-item"  onClick={e => this.chooseTheme('Danger', e)}>Danger Theme</button>
-            <button classNameName="dropdown-item"  onClick={e => this.chooseTheme('Success', e)}>Success Theme</button>
+            <button className="dropdown-item"  onClick={e => this.chooseTheme('Primary', e)}>Primary Theme</button>
+            <button className="dropdown-item"  onClick={e => this.chooseTheme('Danger', e)}>Danger Theme</button>
+            <button className="dropdown-item"  onClick={e => this.chooseTheme('Success', e)}>Success Theme</button>
             
-            <div classNameName="dropdown-divider"></div>
+            <div className="dropdown-divider"></div>
             
-            <button classNameName="dropdown-item"  onClick={this.resetTheme}>Default Theme</button>
+            <button className="dropdown-item"  onClick={this.resetTheme}>Default Theme</button>
           </div>
           
         </div>

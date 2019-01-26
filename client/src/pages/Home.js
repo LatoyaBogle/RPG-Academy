@@ -33,6 +33,7 @@ class Home extends Component {
 
   componentDidMount() {
     this.loadHome();
+    this.test();
   }
 
   loadHome = () => {
@@ -76,7 +77,7 @@ class Home extends Component {
   }
   
   test = () => {
-    console.log("just testing")
+    console.log("shut!!!")
   }    
  
   render() {

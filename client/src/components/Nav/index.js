@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import test from "../../images/test.png";
 import { Col, Row, Container } from "../../components/Grid"; 
 import {Redirect} from 'react-router-dom';
+import SigninForm from '../Forms/index.js';
 //import "../Nav/index.css";
 
 
@@ -222,7 +223,7 @@ return (
         </div>
       </li>
       <li className="nav-item">
-        <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        <a className="nav-link disabled" href="#" tabIndex="-1" aria-disabled="true">Disabled</a>
       </li>
     </ul>
    
@@ -267,17 +268,17 @@ class NavMain extends Component {
     return(
       <nav className="navbar navbar-dark bg-dark">
         <Col size="md">
-          <a className="active" href="#"><i class="fa fa-home"></i></a> 
-          <a href="#"><i class="fa fa-search"></i></a> 
-          <a href="#"><i class="fa fa-envelope"></i></a> 
-          <a href="#"><i class="fa fa-globe"></i></a>
-          <a href="#"><i class="fa fa-trash"></i></a> 
+          <a className="active" href="#"><i className="fa fa-home"></i></a> 
+          <a href="#"><i className="fa fa-search"></i></a> 
+          <a href="#"><i className="fa fa-envelope"></i></a> 
+          <a href="#"><i className="fa fa-globe"></i></a>
+          <a href="#"><i className="fa fa-trash"></i></a> 
         </Col>
         <Col size="md">
           {this.regisRedirect()}
           <button type="button" className="btn btn-warning" data-toggle="modal" data-target="#exampleModal" style={{marginRight:10}}>Sign In</button>
           <button onClick={this.setRedirect}type="button" className="btn btn-warning">Register</button>
-          <div className="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div className="modal fade" id="exampleModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div className="modal-dialog" role="document">
           <div className="modal-content">
             <div className="modal-header">
@@ -287,22 +288,7 @@ class NavMain extends Component {
               </button>
             </div>
             <div className="modal-body">
-              <form>
-                <div className="form-group">
-                  <label for="exampleInputEmail1">Email address</label>
-                  <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
-                  <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
-                </div>
-                <div className="form-group">
-                  <label for="exampleInputPassword1">Password</label>
-                  <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password"/>
-                </div>
-                <div className="form-group form-check">
-                  <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
-                  <label className="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" className="btn btn-primary">Submit</button>
-              </form>
+           <SigninForm/>
             </div>
             <div className="modal-footer">
               <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -318,6 +304,25 @@ class NavMain extends Component {
 }
 
 export default NavMain;
+
+
+/** <form>
+<div className="form-group">
+  <label for="exampleInputEmail1">Email address</label>
+  <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
+  <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
+</div>
+<div className="form-group">
+  <label for="exampleInputPassword1">Password</label>
+  <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password"/>
+</div>
+<div className="form-group form-check">
+  <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
+  <label className="form-check-label" for="exampleCheck1">Check me out</label>
+</div>
+<button type="submit" className="btn btn-primary">Submit</button>
+</form>*/
+
 
 
 

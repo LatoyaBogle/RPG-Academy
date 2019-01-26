@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import Test from '../components/Nav';
 import { Col, Row, Container } from "../components/Grid"; 
 import {Input, FormBtn} from"../components/Forms";
 import './pages.css';
-import API from "../utils/API";
+import API from "../utils/API.js";
 import { Link } from "react-router-dom";
 
 //**current taking in userInput and saving, route needs to be created for user page */

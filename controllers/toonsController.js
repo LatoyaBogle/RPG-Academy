@@ -5,7 +5,7 @@ const db = require("../models");
   findAll: function(req, res) {
     db.Users
       .find(req.query)
-      .sort({ username: "" })
+      .sort({ username: 1 })
       .then(dbModel => res.json(dbModel))
       .catch(err => res.status(422).json(err));
   },
